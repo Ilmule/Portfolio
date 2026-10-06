@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/Logo.png" />
+    <title>Mon portfolio - Emeric</title>
+</head>
+<body>
+<div id="top"></div>
+    <header>
+        <h1>Mon portfolio</h1>
+        <h3>Voici un petit site faisant office de portfolio temporaire</h3>
+        <h6>Je suis pas égocentrique hein...</h6>
+
+        <div class="paragraphe">
+            Bonjour et bienvenue sur ce petit <strong>portfolio</strong> en ligne, je m'appelle <strong>Emeric</strong>, j'ai <strong>19 ans</strong> et j'étudie la <strong>Cybersécurité</strong>
+            dans l'établissement <strong>Ynov de Nantes</strong>.
+            <br><br>
+            Vous allez pouvoir me découvrir au travers de mes différents projets ci-dessous.
+        </div>
+
+        <section class="skills-section">
+            <h2>Compétences & Outils</h2>
+            <div class="skills-container">
+                <span class="skill-tag golang">Golang</span>
+                <span class="skill-tag web">HTML5 / CSS3</span>
+                <span class="skill-tag git">Git & GitHub</span>
+                <span class="skill-tag git">CodePen</span>
+                <hr class="skill-separator">
+                <span class="skill-tag">Travail d’équipe</span>
+                <span class="skill-tag">Facultées d’adaptation</span>
+                <span class="skill-tag">Bonne gestion du stress</span>
+                <span class="skill-tag">Esprit d'analyse</span>
+                <hr class="skill-separator">
+                <span class="skill-tag">Français</span>
+                <span class="skill-tag">Anglais</span>
+
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>Mes hobbies</h2>
+            <div class="skills-container">
+                <span class="hobby-tag">La programation</span>
+                <span class="hobby-tag">Le développement de pages web</span>
+                <hr class="hobby-separator">
+                <span class="hobby-tag">Les jeux vidéos</span>
+                <span class="hobby-tag">Les films et séries</span>
+                <span class="hobby-tag">Les animés</span>
+                <span class="hobby-tag">La lecture (Romans et mangas)</span>
+                <hr class="hobby-separator">
+                <span class="hobby-tag">L'équitation</span>
+                <span class="hobby-tag">Le tir à l'arc</span>
+                <span class="hobby-tag">Le tir à l'arc à cheval</span>
+
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="projects-section">
+            <h2>Projets</h2>
+
+            <input type="radio" id="filter-all" name="project-filter" checked>
+            <input type="radio" id="filter-golang" name="project-filter">
+            <input type="radio" id="filter-web" name="project-filter">
+            <input type="radio" id="filter-links" name="project-filter">
+
+            <div class="filter-container">
+                <label for="filter-all" class="filter-btn">Tous</label>
+                <label for="filter-golang" class="filter-btn">Golang</label>
+                <label for="filter-web" class="filter-btn">Web</label>
+                <label for="filter-links" class="filter-btn">Liens</label>
+            </div>
+
+            <div class="content">
+                <div class="card agauche cat-web">
+                    <div class="card-overlay">
+                        <h2>Site Fan Made</h2>
+                        <p>Juste un site sur un super animé.</p>
+                        <a href="https://mricoucougaming.github.io/slime-site/" target="_blank" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+
+                <div class="card agauche cat-golang">
+                    <div class="card-overlay">
+                        <h2>Harry potter Rp</h2>
+                        <p>Un jeu rp en golang sur le thème Harry Potter.</p>
+                        <a href="https://github.com/Ilmule/RP-Hogwarts" target="_blank" class="btn">Voir le repo</a>
+                    </div>
+                </div>
+
+                <div class="card adroite cat-web cat-golang">
+                    <div class="card-overlay">
+                        <h2>Aux confins d'Athanor</h2>
+                        <p>Adaptation HTML de notre projet en golang.</p>
+                        <a href="https://mricoucougaming.github.io/Aux-confins-d-athanor-HTML/" target="_blank" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+
+                <div class="card adroite cat-links">
+                    <div class="card-overlay">
+                        <h2>Mon GitHub</h2>
+                        <p>Lien vers mon compte GitHub personnel.</p>
+                        <a href="https://github.com/Ilmule" target="_blank" class="btn">Voir le profil</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Mon Parcours</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Formation Cybersécurité</h3>
+                        <span class="timeline-date">En cours</span>
+                        <p>Étudiant à Ynov Nantes en Cybersécurité.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Cursus Général</h3>
+                        <span class="timeline-date">2022 - 2026</span>
+                        <p>Suivi d'une formation générale ayant ammenée a l'obtention du baccalauréat général (Mathématiques et NSI) en 2026.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Mes expériences professionelles</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Animateur en séjours adaptés</h3>
+                        <span class="timeline-date">Vacances scolaires été 2025 / 2026</span>
+                        <p>Travail en binome, gestion du stress en cas de crise, facultées d’adaptation en terme de différents handicaps.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Animateur en centres aérés</h3>
+                        <span class="timeline-date">Vacances 2024 / 2025</span>
+                        <p>Travail en équipe, gestion de groupe, facultés d’adaptation à l’age des enfants, création d’activités.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Stage d'observation</h3>
+                        <span class="timeline-date">Mars 2022</span>
+                        <p>Stage de 3e durant lequel j’ai découvert le HTML/CSS et créé un mini site vitrine en autonomie..</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Mes diplômes</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bac Général</h3>
+                        <span class="timeline-date">Année 2026 - 2027</span>
+                        <p>Obtention du baccalauréat général option Mathématiques et Numériques et Sciences Informatiques.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bafa</h3>
+                        <span class="timeline-date">2023 - 2024</span>
+                        <p>Obtention du BAFA (Brevet d'Aptitude a la Fonction d'Animateur) avec approfondissement handicap.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <a href="#cv-modal" class="btn">Visualiser mon CV</a>
+        <div id="cv-modal" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close-btn">&times;</a>
+                <h2>Mon CV</h2>
+                <iframe src="images/CV Emeric Van Autryve.pdf" width="100%" height="500px"></iframe>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <h2>Me Contacter</h2>
+            <form action="https://formspree.io/f/mwlvkevj" method="POST" class="contact-form">
+
+                    <input type="text" name="name" placeholder="Votre Nom" required>
+                    <input type="email" name="email" placeholder="Votre Email" required>
+                    <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
+                    <button type="submit" class="btn">Envoyer</button>
+
+            </form>
+        </section>
+    </main>   
+
+    <a href="#top" class="on_remonte" title="Remonter en haut">
+        <img src="images/arrow-up-svgrepo-com.svg" alt="Flèche remonter" class="remontons">
+    </a>
+
+    <footer>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Cliquez ici pour gagner 100000€</a>
+    </footer>
+</body>
+</html>
