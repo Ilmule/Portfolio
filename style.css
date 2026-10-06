@@ -181,7 +181,7 @@ input[name="project-filter"] {
     flex: 0 0 auto;
     width: 320px;
     height: 230px;
-    background-image: url("images/boutons.jpeg");
+    background-image: url("boutons.jpeg");
     background-size: cover;
     background-position: center;
     border-radius: 16px;
